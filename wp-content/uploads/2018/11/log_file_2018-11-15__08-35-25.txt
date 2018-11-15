@@ -1,0 +1,181 @@
+
+---Downloaded files---
+The import files for: Seclek Demo were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/devlab
+Data file = C:\wamp64\www\devlab/wp-content/themes/DevLab/inc/demo-data/demo-data.xml
+Widget file = C:\wamp64\www\devlab/wp-content/themes/DevLab/inc/demo-data/widgets.wie
+Customizer file = not defined!
+Redux files:
+seclekOptions -> C:\wamp64\www\devlab/wp-content/themes/DevLab/inc/demo-data/theme-options.json 
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_color Gray
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import pa_size Large
+[WARNING] Failed to import pa_size Medium
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import product_cat Shoes
+[WARNING] Failed to import pa_size Small
+[WARNING] Failed to import pa_color Yellow
+[WARNING] Failed to import product_cat Bags
+[WARNING] Failed to import product_cat Belts
+[WARNING] Failed to import product_cat Clothing
+[WARNING] Failed to import product_cat Headphone
+[WARNING] Failed to import product_cat Watches
+[ERROR] Failed to import "blog-1" (Fichier média)
+[ERROR] Failed to import "blog-2" (Fichier média)
+[ERROR] Failed to import "blog-3" (Fichier média)
+[ERROR] Failed to import "blog-4" (Fichier média)
+[ERROR] Failed to import "blog-5" (Fichier média)
+[ERROR] Failed to import "blog-6" (Fichier média)
+[ERROR] Failed to import "blog-7" (Fichier média)
+[ERROR] Failed to import "blog-8" (Fichier média)
+[ERROR] Failed to import "blog-9" (Fichier média)
+[ERROR] Failed to import "blog-10" (Fichier média)
+[ERROR] Failed to import "blog-11" (Fichier média)
+[ERROR] Failed to import "blog-12" (Fichier média)
+[ERROR] Failed to import "blog-13" (Fichier média)
+[ERROR] Failed to import "blog-14" (Fichier média)
+[ERROR] Failed to import "blog-15" (Fichier média)
+[ERROR] Failed to import "blog-16" (Fichier média)
+[ERROR] Failed to import "blog-17" (Fichier média)
+[ERROR] Failed to import "blog-18" (Fichier média)
+[ERROR] Failed to import "blog-19" (Fichier média)
+[ERROR] Failed to import "blog-20" (Fichier média)
+[ERROR] Failed to import "blog-21" (Fichier média)
+[ERROR] Failed to import "folio-25" (Fichier média)
+[ERROR] Failed to import "folio-26" (Fichier média)
+[ERROR] Failed to import "folio-27" (Fichier média)
+[ERROR] Failed to import "folio-28" (Fichier média)
+[ERROR] Failed to import "folio-1" (Fichier média)
+[ERROR] Failed to import "folio-2" (Fichier média)
+[ERROR] Failed to import "folio-3" (Fichier média)
+[ERROR] Failed to import "folio-4" (Fichier média)
+[ERROR] Failed to import "folio-5" (Fichier média)
+[ERROR] Failed to import "folio-6" (Fichier média)
+[ERROR] Failed to import "folio-7" (Fichier média)
+[ERROR] Failed to import "folio-8" (Fichier média)
+[ERROR] Failed to import "folio-9" (Fichier média)
+[ERROR] Failed to import "folio-10" (Fichier média)
+[ERROR] Failed to import "folio-11" (Fichier média)
+[ERROR] Failed to import "folio-12" (Fichier média)
+[ERROR] Failed to import "folio-13" (Fichier média)
+[ERROR] Failed to import "folio-14" (Fichier média)
+[ERROR] Failed to import "folio-15" (Fichier média)
+[ERROR] Failed to import "folio-16" (Fichier média)
+[ERROR] Failed to import "folio-17" (Fichier média)
+[ERROR] Failed to import "folio-18" (Fichier média)
+[ERROR] Failed to import "folio-19" (Fichier média)
+[ERROR] Failed to import "folio-20" (Fichier média)
+[ERROR] Failed to import "folio-21" (Fichier média)
+[ERROR] Failed to import "folio-22" (Fichier média)
+[ERROR] Failed to import "folio-23" (Fichier média)
+[ERROR] Failed to import "folio-24" (Fichier média)
+[ERROR] Failed to import "banner-bg" (Fichier média)
+[ERROR] Failed to import "apple-touch-icon-144-precomposed" (Fichier média)
+[ERROR] Failed to import "logo-white" (Fichier média)
+[ERROR] Failed to import "banner-img" (Fichier média)
+[ERROR] Failed to import "service-icon1" (Fichier média)
+[ERROR] Failed to import "service-icon2" (Fichier média)
+[ERROR] Failed to import "service-icon3" (Fichier média)
+[ERROR] Failed to import "testimonial-img" (Fichier média)
+[ERROR] Failed to import "video-bg" (Fichier média)
+[ERROR] Failed to import "contact-bg" (Fichier média)
+[ERROR] Failed to import "cta-bg" (Fichier média)
+[ERROR] Failed to import "subscribe-bg" (Fichier média)
+[ERROR] Failed to import "price-img3" (Fichier média)
+[ERROR] Failed to import "price-img1" (Fichier média)
+[ERROR] Failed to import "price-img2" (Fichier média)
+[ERROR] Failed to import "brand-1" (Fichier média)
+[ERROR] Failed to import "brand-2" (Fichier média)
+[ERROR] Failed to import "brand-3" (Fichier média)
+[ERROR] Failed to import "brand-4" (Fichier média)
+[ERROR] Failed to import "brand-1" (Fichier média)
+[ERROR] Failed to import "brand-2" (Fichier média)
+[ERROR] Failed to import "brand-3" (Fichier média)
+[ERROR] Failed to import "brand-4" (Fichier média)
+[ERROR] Failed to import "fun1" (Fichier média)
+[ERROR] Failed to import "fun2" (Fichier média)
+[ERROR] Failed to import "fun3" (Fichier média)
+[ERROR] Failed to import "fun4" (Fichier média)
+[ERROR] Failed to import "folio-1" (Fichier média)
+[ERROR] Failed to import "folio-2" (Fichier média)
+[ERROR] Failed to import "folio-3" (Fichier média)
+[ERROR] Failed to import "blog-1" (Fichier média)
+[ERROR] Failed to import "blog-2" (Fichier média)
+[ERROR] Failed to import "blog-3" (Fichier média)
+[ERROR] Failed to import "logo" (Fichier média)
+[ERROR] Failed to import "1_0001_Layer 25" (Fichier média)
+[ERROR] Failed to import "1_0002_Layer 24" (Fichier média)
+[ERROR] Failed to import "1_0003_Layer 23" (Fichier média)
+[ERROR] Failed to import "1_0004_Layer 22" (Fichier média)
+[ERROR] Failed to import "1_0005_Layer 21" (Fichier média)
+[ERROR] Failed to import "1_0006_Layer 20" (Fichier média)
+[ERROR] Failed to import "1_0007_Layer 19" (Fichier média)
+[ERROR] Failed to import "1_0008_Layer 18" (Fichier média)
+[ERROR] Failed to import "1_0009_Layer 17" (Fichier média)
+[ERROR] Failed to import "1_0010_Layer 16" (Fichier média)
+[ERROR] Failed to import "1_0011_Layer 15" (Fichier média)
+[ERROR] Failed to import "1_0012_Layer 14" (Fichier média)
+[ERROR] Failed to import "1_0013_Layer 13" (Fichier média)
+[ERROR] Failed to import "1_0014_Layer 12" (Fichier média)
+[ERROR] Failed to import "1_0015_Layer 11" (Fichier média)
+[ERROR] Failed to import "1_0016_Layer 10" (Fichier média)
+[ERROR] Failed to import "1_0017_Layer 9" (Fichier média)
+[ERROR] Failed to import "1_0018_Layer 8" (Fichier média)
+[ERROR] Failed to import "1_0019_Layer 7" (Fichier média)
+[ERROR] Failed to import "1_0020_Layer 6" (Fichier média)
+[ERROR] Failed to import "1_0021_Layer 5" (Fichier média)
+[ERROR] Failed to import "1_0022_Layer 4" (Fichier média)
+[ERROR] Failed to import "1_0023_Layer 3" (Fichier média)
+[ERROR] Failed to import "1_0024_Layer 1" (Fichier média)
+[ERROR] Failed to import "banner-bg-v2" (Fichier média)
+[ERROR] Failed to import "banner-bg3" (Fichier média)
+
+
+---Importing widgets---
+Sidebar : 
+
+Rechercher - No Title - Widget already exists
+Catégories - No Title - Widget already exists
+Articles récents - No Title - Widget already exists
+Archives - No Title - Widget already exists
+Méta - No Title - Widget already exists
+
+Portfolio Sidebar : 
+
+Seclek: Recent Posts - Recent Folio - Imported
+Nuage d’étiquettes - Tags - Imported
+
+sidebar-shop : Sidebar does not exist in theme (moving widget to Inactive)
+
+woocommerce_widget_cart - Cart - Site does not support widget
+Image - No Title - Imported to Inactive
+woocommerce_product_categories - Product categories - Site does not support widget
+woocommerce_price_filter - Filter by price - Site does not support widget
+
+footer-widget-area-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Menu de navigation - Quick Links - Imported to Inactive
+
+footer-widget-area-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Texte - Address - Imported to Inactive
+
+footer-widget-area-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Texte - Help - Imported to Inactive
+
+footer-widget-area-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Seclek: Social - Follow - Imported to Inactive
+
+
+
+---Importing Redux settings---
+The Redux plugin is not activated, so the Redux import was skipped!

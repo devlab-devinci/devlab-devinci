@@ -1,0 +1,1208 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Seclek Core\n"
+"POT-Creation-Date: 2018-08-12 14:42+0600\n"
+"PO-Revision-Date: 2018-08-12 14:42+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seclek-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/post-types/post_types.php:7
+msgctxt "Post Type General Name"
+msgid "Portfolios"
+msgstr ""
+
+#: inc/post-types/post_types.php:8
+msgctxt "Post Type Singular Name"
+msgid "Portfolio"
+msgstr ""
+
+#: inc/post-types/post_types.php:9 inc/post-types/post_types.php:10
+#: inc/post-types/post_types.php:36
+msgid "Portfolio"
+msgstr ""
+
+#: inc/post-types/post_types.php:11
+msgid "Item Archives"
+msgstr ""
+
+#: inc/post-types/post_types.php:12
+msgid "Item Attributes"
+msgstr ""
+
+#: inc/post-types/post_types.php:13 inc/post-types/post_types.php:70
+#: inc/post-types/post_types.php:103
+msgid "Parent Item:"
+msgstr ""
+
+#: inc/post-types/post_types.php:14 inc/post-types/post_types.php:68
+#: inc/post-types/post_types.php:101
+msgid "All Items"
+msgstr ""
+
+#: inc/post-types/post_types.php:15 inc/post-types/post_types.php:72
+#: inc/post-types/post_types.php:105
+msgid "Add New Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:16
+msgid "Add New"
+msgstr ""
+
+#: inc/post-types/post_types.php:17
+msgid "New Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:18 inc/post-types/post_types.php:73
+#: inc/post-types/post_types.php:106
+msgid "Edit Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:19 inc/post-types/post_types.php:74
+#: inc/post-types/post_types.php:107
+msgid "Update Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:20 inc/post-types/post_types.php:75
+#: inc/post-types/post_types.php:108
+msgid "View Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:21
+msgid "View Items"
+msgstr ""
+
+#: inc/post-types/post_types.php:22
+msgid "Search Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:23
+msgid "Not found"
+msgstr ""
+
+#: inc/post-types/post_types.php:24
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/post-types/post_types.php:25
+msgid "Featured Image"
+msgstr ""
+
+#: inc/post-types/post_types.php:26
+msgid "Set featured image"
+msgstr ""
+
+#: inc/post-types/post_types.php:27
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/post-types/post_types.php:28
+msgid "Use as featured image"
+msgstr ""
+
+#: inc/post-types/post_types.php:29
+msgid "Insert into item"
+msgstr ""
+
+#: inc/post-types/post_types.php:30
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/post-types/post_types.php:31 inc/post-types/post_types.php:83
+#: inc/post-types/post_types.php:116
+msgid "Items list"
+msgstr ""
+
+#: inc/post-types/post_types.php:32 inc/post-types/post_types.php:84
+#: inc/post-types/post_types.php:117
+msgid "Items list navigation"
+msgstr ""
+
+#: inc/post-types/post_types.php:33
+msgid "Filter items list"
+msgstr ""
+
+#: inc/post-types/post_types.php:37
+msgid "Work type or case study for seclek theme"
+msgstr ""
+
+#: inc/post-types/post_types.php:65
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: inc/post-types/post_types.php:66
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: inc/post-types/post_types.php:67
+msgid "Category"
+msgstr ""
+
+#: inc/post-types/post_types.php:69 inc/post-types/post_types.php:102
+msgid "Parent Item"
+msgstr ""
+
+#: inc/post-types/post_types.php:71 inc/post-types/post_types.php:104
+msgid "New Item Name"
+msgstr ""
+
+#: inc/post-types/post_types.php:76 inc/post-types/post_types.php:109
+msgid "Separate items with commas"
+msgstr ""
+
+#: inc/post-types/post_types.php:77 inc/post-types/post_types.php:110
+msgid "Add or remove items"
+msgstr ""
+
+#: inc/post-types/post_types.php:78 inc/post-types/post_types.php:111
+msgid "Choose from the most used"
+msgstr ""
+
+#: inc/post-types/post_types.php:79 inc/post-types/post_types.php:112
+msgid "Popular Items"
+msgstr ""
+
+#: inc/post-types/post_types.php:80 inc/post-types/post_types.php:113
+msgid "Search Items"
+msgstr ""
+
+#: inc/post-types/post_types.php:81 inc/post-types/post_types.php:114
+msgid "Not Found"
+msgstr ""
+
+#: inc/post-types/post_types.php:82 inc/post-types/post_types.php:115
+msgid "No items"
+msgstr ""
+
+#: inc/post-types/post_types.php:98
+msgctxt "Taxonomy General Name"
+msgid "Tags"
+msgstr ""
+
+#: inc/post-types/post_types.php:99
+msgctxt "Taxonomy Singular Name"
+msgid "Tag"
+msgstr ""
+
+#: inc/post-types/post_types.php:100
+msgid "Tags"
+msgstr ""
+
+#: inc/widgets/tr.image.title.php:47 inc/widgets/tr.mailchimp.php:61
+#: inc/widgets/tr.portfolio.widget.php:65 inc/widgets/tr.social.php:78
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/tr.image.title.php:51
+msgid "Image URL:"
+msgstr ""
+
+#: inc/widgets/tr.mailchimp.php:56
+msgid "Sign up for newsletter"
+msgstr ""
+
+#: inc/widgets/tr.mailchimp.php:57
+msgid "Enter your email to receive relevant messaging tips and examples."
+msgstr ""
+
+#: inc/widgets/tr.mailchimp.php:66
+msgid "Description:"
+msgstr ""
+
+#: inc/widgets/tr.mailchimp.php:70
+msgid "Enter Shortcode"
+msgstr ""
+
+#: inc/widgets/tr.portfolio.widget.php:12
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/tr.portfolio.widget.php:68
+msgid "Post Type:"
+msgstr ""
+
+#: inc/widgets/tr.portfolio.widget.php:74
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/tr.portfolio.widget.php:78
+msgid "Display post date?"
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:175
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:180
+msgid "Default options restored."
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:199
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:373
+msgid "Settings saved."
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:375
+msgid "Save"
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:375
+msgid "Saving..."
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:376
+msgid "Restore"
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:379
+#: lib/cs-framework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: lib/cs-framework/classes/framework.class.php:383
+msgid "show all options"
+msgstr ""
+
+#: lib/cs-framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: lib/cs-framework/classes/options.class.php:131
+#: lib/cs-framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: lib/cs-framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: lib/cs-framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: lib/cs-framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( %s )"
+msgstr ""
+
+#: lib/cs-framework/classes/shortcode.class.php:82
+#: lib/cs-framework/classes/shortcode.class.php:90
+#: lib/cs-framework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: lib/cs-framework/classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: lib/cs-framework/classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: lib/cs-framework/fields/background/background.php:34
+#: lib/cs-framework/fields/background/background.php:35
+#: lib/cs-framework/fields/upload/upload.php:23
+#: lib/cs-framework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: lib/cs-framework/fields/background/background.php:36
+#: lib/cs-framework/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: lib/cs-framework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: lib/cs-framework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: lib/cs-framework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: lib/cs-framework/fields/backup/backup.php:28
+msgid "or"
+msgstr ""
+
+#: lib/cs-framework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: lib/cs-framework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: lib/cs-framework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: lib/cs-framework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: lib/cs-framework/fields/group/group.php:22
+msgid "Adding"
+msgstr ""
+
+#: lib/cs-framework/fields/group/group.php:45
+#: lib/cs-framework/fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: lib/cs-framework/fields/icon/icon.php:25
+#: lib/cs-framework/functions/actions.php:82
+msgid "Add Icon"
+msgstr ""
+
+#: lib/cs-framework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: lib/cs-framework/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: lib/cs-framework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: lib/cs-framework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: lib/cs-framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: lib/cs-framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: lib/cs-framework/fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: lib/cs-framework/fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/cs-framework/fields/typography/typography.php:107
+#: lib/cs-framework/functions/actions.php:32
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: lib/cs-framework/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#: lib/cs-framework/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: lib/cs-framework/functions/helpers.php:49
+msgid "This field class is not available!"
+msgstr ""
+
+#: lib/cs-framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: lib/cs-framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: lib/cs-framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: lib/demo-importer/demo-importer.php:57
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+
+#: lib/demo-importer/inc/CustomizerImporter.php:37
+#: lib/demo-importer/inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr ""
+
+#: lib/demo-importer/inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr ""
+
+#: lib/demo-importer/inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: lib/demo-importer/inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+
+#: lib/demo-importer/inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: lib/demo-importer/inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: lib/demo-importer/inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:197 lib/demo-importer/inc/Helpers.php:240
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:274
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:297
+#, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:308
+#: lib/demo-importer/inc/OneClickDemoImport.php:137
+#: lib/demo-importer/views/plugin-page.php:21
+msgid "One Click Demo Import"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:309
+#: lib/demo-importer/inc/OneClickDemoImport.php:138
+#: lib/demo-importer/views/plugin-page.php:120
+#: lib/demo-importer/views/plugin-page.php:132
+msgid "Import Demo Data"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:321
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:329
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:369
+msgid "One Click Demo Import - "
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:403
+#, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:449
+#, php-format
+msgid "Content file was not uploaded. Error: %s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:453 lib/demo-importer/inc/Helpers.php:470
+#: lib/demo-importer/inc/Helpers.php:487 lib/demo-importer/inc/Helpers.php:498
+#: lib/demo-importer/inc/Helpers.php:518 lib/demo-importer/inc/Helpers.php:526
+msgid "Upload files"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:466
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:483
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:496
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:514
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:524
+msgid "The import files were successfully uploaded!"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:550
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:554
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = %4$s"
+"%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+
+#: lib/demo-importer/inc/Helpers.php:557 lib/demo-importer/inc/Helpers.php:558
+#: lib/demo-importer/inc/Helpers.php:559 lib/demo-importer/inc/Helpers.php:560
+msgid "not defined!"
+msgstr ""
+
+#: lib/demo-importer/inc/Importer.php:172
+msgid "New AJAX call!"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:190
+msgid "No preview image defined for this import."
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:191
+msgid "Are you sure?"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:192
+msgid "Cancel"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:193
+msgid "Yes, import!"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:194
+msgid "Selected demo import:"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:241
+msgid "Manually uploaded files"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:254
+#: lib/demo-importer/inc/OneClickDemoImport.php:265
+msgid "Downloaded files"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:261
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:270
+msgid "No import files specified!"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:391
+msgid ""
+"Just used One Click Demo Import plugin and it was awesome! Thanks "
+"@ProteusThemes! #OCDI https://www.proteusthemes.com/"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:394
+#, php-format
+msgid ""
+"%1$s%6$sWasn't this a great One Click Demo Import experience?%7$s Created "
+"and maintained by %3$sProteusThemes%4$s. %2$s%5$sClick to Tweet!%4$s%8$s"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:407
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done!%4$s%2$sThe demo import has finished. Please "
+"check your page and make sure that everything has imported correctly. If it "
+"did, you can deactivate the %3$sOne Click Demo Import%4$s plugin, because it "
+"has done its job.%5$s"
+msgstr ""
+
+#: lib/demo-importer/inc/OneClickDemoImport.php:418
+#, php-format
+msgid ""
+"%1$sThe demo import has finished, but there were some import errors.%2$sMore "
+"details about the errors can be found in this %3$s%5$slog file%6$s%4$s%7$s"
+msgstr ""
+
+#: lib/demo-importer/inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr ""
+
+#: lib/demo-importer/inc/ReduxImporter.php:32
+#: lib/demo-importer/inc/ReduxImporter.php:53
+#: lib/demo-importer/inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr ""
+
+#: lib/demo-importer/inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr ""
+
+#: lib/demo-importer/inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:34
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:37
+msgid "Here are the predefined demo imports:"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:71
+msgid ""
+"At least one of the possible options should be set! Check them with --help"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:122
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI "
+"predefined demo import)!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:128
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the "
+"available predefined demo imports:"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:135
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:140
+#, php-format
+msgid "Selected predefined demo import: %s"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:143
+msgid "Preparing the demo import files..."
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:148
+msgid "Demo import files could not be retrieved!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:151
+msgid "Demo import files retrieved successfully!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:153
+msgid "Importing..."
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:173
+msgid "Predefined import finished!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:185
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:194
+msgid "Importing content (this might take a while)..."
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:196
+msgid "Importing content"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:201
+msgid "Content import finished!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:204
+msgid "There were some issues while importing the content!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:223
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:227
+msgid "Importing widgets..."
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:232
+msgid "Widgets imported successfully!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:235
+msgid "There were some issues while importing widgets!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:254
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:258
+msgid "Importing customizer settings..."
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:263
+msgid "Customizer settings imported successfully!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:266
+msgid "There were some issues while importing customizer settings!"
+msgstr ""
+
+#: lib/demo-importer/inc/WPCLICommands.php:286
+#, php-format
+msgid "Executing action: %s ..."
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:40
+#: lib/demo-importer/inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:269
+msgid "Imported"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:273
+msgid "Imported to Inactive"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:279
+msgid "No Title"
+msgstr ""
+
+#: lib/demo-importer/inc/WidgetImporter.php:326
+msgid "No results for widget import!"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:131
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:167
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:283
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:356
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:506
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:566
+msgid "Invalid author mapping"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:667
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:755
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:765
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:843
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:857
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:889
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1772
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:894
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:934
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1075
+msgid "Invalid file type"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1558
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1579
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1583
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1733
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1777
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1835
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1844
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1895
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1917
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1923
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1948
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1961
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1966
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1980
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:1985
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2011
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2022
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2067
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2072
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2094
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2098
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2112
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2116
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2133
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2162
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2172
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2183
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2191
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2205
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2224
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2234
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2269
+msgid "Starting remapping of featured images"
+msgstr ""
+
+#: lib/demo-importer/vendor/proteusthemes/wp-content-importer-v2/src/WXRImporter.php:2278
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:31
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:44
+msgid "Before you begin, make sure all the required plugins are activated."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:49
+msgid ""
+"Importing demo data (post, pages, images, theme settings, ...) is the "
+"easiest way to setup your theme."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:50
+msgid ""
+"It will allow you to quickly edit everything instead of creating content "
+"from scratch."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:55
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:58
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data will be deleted or modified."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:59
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:60
+msgid ""
+"Please click on the Import button only once and wait, it can take a couple "
+"of minutes."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:65
+msgid "Switch to manual import!"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:67
+msgid "Switch back to theme predefined imports!"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:83
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:90
+msgid "Manual demo files upload"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:93
+msgid "Choose a XML file for content import:"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:98
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:103
+msgid "Choose a DAT file for customizer import:"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:109
+msgid "Choose a JSON file for Redux import:"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:112
+msgid "Enter the Redux option name:"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:147
+msgid "All"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:154
+msgid "Search demos..."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:175
+msgid "No preview image."
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:180
+msgid "Import"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:182
+msgid "Preview"
+msgstr ""
+
+#: lib/demo-importer/views/plugin-page.php:195
+msgid "Importing, please wait!"
+msgstr ""
+
+#: seclek-core.php:41 seclek-core.php:42
+msgid "Seclek"
+msgstr ""
+
+#: seclek-core.php:52 seclek-core.php:53
+msgid "Install Plugins"
+msgstr ""
+
+#: seclek-core.php:61 seclek-core.php:62
+msgid "Import Demo"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Seclek Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themes.themeregion.com/seclek"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Core frameworks of Seclek theme. The theme's functionalities depends on this "
+"plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeRegion Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeregion.com/"
+msgstr ""

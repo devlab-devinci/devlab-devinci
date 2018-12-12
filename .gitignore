@@ -3,7 +3,7 @@
 *.sublime-project
 *.sublime-workspace
 _ai-cache
-
+.htaccess
 
 #### Directory build
 

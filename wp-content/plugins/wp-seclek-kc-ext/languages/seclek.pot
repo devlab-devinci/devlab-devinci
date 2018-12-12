@@ -1,0 +1,448 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: KC Extension For Seclek\n"
+"POT-Creation-Date: 2018-08-12 17:32+0600\n"
+"PO-Revision-Date: 2018-08-12 17:32+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: seclek-kc-ext.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: kc-elements/tr-testimonial.php:8
+msgid "Testimonial"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:9 kc-elements/tr_feature_box.php:9
+#: kc-elements/tr_heading.php:9 kc-elements/tr_pricing.php:9
+msgid "Display single icon"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:17
+msgid "Testimonials"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:19 kc-elements/tr_contact_info.php:25
+#: kc-elements/tr_contact_info.php:52 kc-elements/tr_contact_info.php:79
+#: kc-elements/tr_pricing.php:121
+msgid ""
+"Repeat this fields with each item created, Each item corresponding "
+"processbar element."
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:20
+msgid "Add new testimonial"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:31
+msgid "Name"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:36
+msgid "Position"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:41 kc-elements/tr_heading.php:8
+msgid "Heading"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:46 kc-elements/tr_feature_box.php:23
+#: kc-elements/tr_heading.php:40
+msgid "Content"
+msgstr ""
+
+#: kc-elements/tr-testimonial.php:53 kc-elements/tr-woocommerce.php:64
+#: kc-elements/tr_blog_post.php:50 kc-elements/tr_content_box.php:102
+#: kc-elements/tr_countdown.php:24 kc-elements/tr_counter.php:65
+#: kc-elements/tr_feature_box.php:29 kc-elements/tr_heading.php:46
+#: kc-elements/tr_logo_slider.php:23 kc-elements/tr_portfolio.php:50
+#: kc-elements/tr_pricing.php:112 kc-elements/tr_video.php:28
+msgid "Extra Class"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:8
+msgid "Woocommerce Shortcode"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:9
+msgid "Display woocommerce products here"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:17
+msgid "Select Shortcode"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:30
+msgid "Categories"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:32
+msgid "Enter Product categories slug name. Seperat with comma (,)"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:40 kc-elements/tr_blog_post.php:17
+#: kc-elements/tr_portfolio.php:17
+msgid "Select Column"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:51 kc-elements/tr_blog_post.php:37
+#: kc-elements/tr_portfolio.php:37
+msgid "Number of Post"
+msgstr ""
+
+#: kc-elements/tr-woocommerce.php:54 kc-elements/tr_blog_post.php:40
+#: kc-elements/tr_portfolio.php:40
+msgid " Specify number of post that you want to show. Set 0 to get all team"
+msgstr ""
+
+#: kc-elements/tr_blog_post.php:8
+msgid "Blog Posts"
+msgstr ""
+
+#: kc-elements/tr_blog_post.php:9
+msgid "Display recent blog post"
+msgstr ""
+
+#: kc-elements/tr_blog_post.php:28 kc-elements/tr_portfolio.php:28
+msgid "Order"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:8
+msgid "Contact Info"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:9
+msgid "Display contact information."
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:17 kc-elements/tr_contact_info.php:44
+#: kc-elements/tr_contact_info.php:71 kc-elements/tr_content_box.php:65
+#: kc-elements/tr_counter.php:54 kc-elements/tr_pricing.php:75
+msgid "Select Icon"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:19 kc-elements/tr_contact_info.php:46
+#: kc-elements/tr_contact_info.php:73 kc-elements/tr_content_box.php:67
+#: kc-elements/tr_counter.php:56 kc-elements/tr_pricing.php:77
+msgid "Select icon display in box"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:23
+msgid "Phone Numbers"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:26
+msgid "Add new phone numbers"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:35
+msgid "Phone Number"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:50
+msgid "Emails"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:53
+msgid "Add new emails"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:62
+msgid "Email"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:77 kc-elements/tr_contact_info.php:89
+msgid "Address"
+msgstr ""
+
+#: kc-elements/tr_contact_info.php:80
+msgid "Add new addresses"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:8
+msgid "Content Box"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:9
+msgid "Display Content with image or icon."
+msgstr ""
+
+#: kc-elements/tr_content_box.php:17
+msgid "Select Template"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:28 kc-elements/tr_counter.php:17
+#: kc-elements/tr_pricing.php:17
+msgid "Select image/icon"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:44 kc-elements/tr_counter.php:28
+#: kc-elements/tr_feature_box.php:17 kc-elements/tr_heading.php:17
+#: kc-elements/tr_pricing.php:37
+msgid "Title"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:46 kc-elements/tr_counter.php:30
+#: kc-elements/tr_feature_box.php:19 kc-elements/tr_heading.php:19
+#: kc-elements/tr_pricing.php:39
+msgid "Enter Title here."
+msgstr ""
+
+#: kc-elements/tr_content_box.php:51
+msgid "Description"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:56 kc-elements/tr_counter.php:45
+#: kc-elements/tr_pricing.php:66
+msgid "Upload Image"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:76 kc-elements/tr_pricing.php:86
+msgid "Display Button"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:82 kc-elements/tr_pricing.php:92
+msgid "Text Button"
+msgstr ""
+
+#: kc-elements/tr_content_box.php:92 kc-elements/tr_pricing.php:102
+msgid "Link Button"
+msgstr ""
+
+#: kc-elements/tr_countdown.php:8
+msgid "Coundown"
+msgstr ""
+
+#: kc-elements/tr_countdown.php:9
+msgid "Display countdown"
+msgstr ""
+
+#: kc-elements/tr_countdown.php:17
+msgid "Date time"
+msgstr ""
+
+#: kc-elements/tr_countdown.php:19
+msgid "Target date For Countdown."
+msgstr ""
+
+#: kc-elements/tr_counter.php:8 kc-elements/tr_counter.php:35
+msgid "Counter"
+msgstr ""
+
+#: kc-elements/tr_counter.php:9
+msgid "Display Counter"
+msgstr ""
+
+#: kc-elements/tr_counter.php:40
+msgid "Delimeter"
+msgstr ""
+
+#: kc-elements/tr_counter.php:41
+msgid "Enter counter delimeter. Such as: + , %"
+msgstr ""
+
+#: kc-elements/tr_feature_box.php:8
+msgid "Service Box"
+msgstr ""
+
+#: kc-elements/tr_feature_box.php:25 kc-elements/tr_heading.php:42
+msgid "Enter Content here."
+msgstr ""
+
+#: kc-elements/tr_heading.php:23
+msgid " Type"
+msgstr ""
+
+#: kc-elements/tr_logo_slider.php:8
+msgid "Logo Slider"
+msgstr ""
+
+#: kc-elements/tr_logo_slider.php:9
+msgid "Display logo slider"
+msgstr ""
+
+#: kc-elements/tr_logo_slider.php:17
+msgid "Upload Images"
+msgstr ""
+
+#: kc-elements/tr_logo_slider.php:63
+msgid "No images upload"
+msgstr ""
+
+#: kc-elements/tr_portfolio.php:8
+msgid "Portfolio List"
+msgstr ""
+
+#: kc-elements/tr_portfolio.php:9
+msgid "Display porfolio here"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:8
+msgid "Pricing Plan"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:29
+msgid "Make Featured"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:43
+msgid "Price"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:45
+msgid "Enter Price here."
+msgstr ""
+
+#: kc-elements/tr_pricing.php:49
+msgid "Currency"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:51
+msgid "Enter Currency here.Exp. $"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:55
+msgid "Duration"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:119
+msgid "Pricing List"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:122
+msgid "Add new price list"
+msgstr ""
+
+#: kc-elements/tr_pricing.php:131
+msgid "List"
+msgstr ""
+
+#: kc-elements/tr_social.php:8
+msgid "Social List"
+msgstr ""
+
+#: kc-elements/tr_social.php:9
+msgid "Display social links."
+msgstr ""
+
+#: kc-elements/tr_social.php:18
+msgid "Class"
+msgstr ""
+
+#: kc-elements/tr_social.php:19
+msgid "Extra CSS class"
+msgstr ""
+
+#: kc-elements/tr_social.php:23
+msgid " Icons"
+msgstr ""
+
+#: kc-elements/tr_social.php:25
+msgid ""
+"Repeat this fields with each item created, Each item corresponding an icon "
+"element."
+msgstr ""
+
+#: kc-elements/tr_social.php:26
+msgid " Add new icon"
+msgstr ""
+
+#: kc-elements/tr_social.php:55
+msgid "Label"
+msgstr ""
+
+#: kc-elements/tr_social.php:57
+msgid "Enter text used as title of the icon."
+msgstr ""
+
+#: kc-elements/tr_social.php:64
+msgid " Choose an icon to display"
+msgstr ""
+
+#: kc-elements/tr_social.php:68
+msgid " Icon Link"
+msgstr ""
+
+#: kc-elements/tr_social.php:70
+msgid ""
+" The URL which icon assigned to. You can select page/post or other post type"
+msgstr ""
+
+#: kc-elements/tr_social.php:74
+msgid " Icon Color"
+msgstr ""
+
+#: kc-elements/tr_social.php:76
+msgid ""
+" The color for this icon. You can set color for all icon from Styling tab."
+msgstr ""
+
+#: kc-elements/tr_social.php:80
+msgid " Icon BG Color"
+msgstr ""
+
+#: kc-elements/tr_social.php:82
+msgid ""
+" The background color for this icon. You can set background color for all "
+"icon from Styling tab."
+msgstr ""
+
+#: kc-elements/tr_video.php:8
+msgid "Video Player"
+msgstr ""
+
+#: kc-elements/tr_video.php:9
+msgid "Display video content"
+msgstr ""
+
+#: kc-elements/tr_video.php:17
+msgid "Video Link"
+msgstr ""
+
+#: kc-elements/tr_video.php:19
+msgid "Enter Video link here. Ex: https://www.youtube.com/watch?v=O687sp1-FnE"
+msgstr ""
+
+#: kc-elements/tr_video.php:23
+msgid "Upload Preview Video Image"
+msgstr ""
+
+#: seclek-kc-ext.php:50
+msgid ""
+"This plugin requires King Composer plugin activated to work. Please activate "
+"your King Composer plugin first."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "KC Extension For Seclek"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themeforest.net/user/themeregion/portfolio"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"KC Extension for Seclek theme. Without this plugin seclek kc element will "
+"not load."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeRegion Team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeregion.com/"
+msgstr ""

@@ -63,6 +63,11 @@ function monsterinsights_admin_styles() {
 	// Load necessary admin styles.
 	wp_register_style( 'monsterinsights-admin-style', plugins_url( 'assets/css/admin' . $suffix . '.css', MONSTERINSIGHTS_PLUGIN_FILE ), array(), monsterinsights_get_asset_version() );
 	wp_enqueue_style( 'monsterinsights-admin-style' );
+
+	// Load LTR stylesheet where needed.
+	if ( is_rtl() ) {
+		wp_enqueue_style( 'monsterinsights-admin-style-rtl', plugins_url( 'assets/css/admin-rtl' . $suffix . '.css', MONSTERINSIGHTS_PLUGIN_FILE ), array(), monsterinsights_get_asset_version() );
+	}
 }
 add_action( 'admin_enqueue_scripts', 'monsterinsights_admin_styles' );
 
@@ -176,6 +181,8 @@ function monsterinsights_admin_scripts() {
 				'refresh_report_success_text'   => esc_html__( 'Retrieved the new report data successfully', 'google-analytics-for-wordpress' ),
 				'refresh_report_failure_title'  => esc_html__( 'Error', 'google-analytics-for-wordpress' ),
 				'timezone'						=> date('e'),
+				'resume_report_title'			=> esc_html__( 'Real-Time Report Paused', 'google-analytics-for-wordpress' ),
+				'resume_report_text'			=> esc_html__( 'The Real-Time Report automatically paused due to inactivity. Please refresh the page to resume the Real-Time Report.', 'google-analytics-for-wordpress' ),
 			)
 		);
 
@@ -224,6 +231,13 @@ function monsterinsights_remove_conflicting_asset_files() {
 		'control-panel-modal-plugin', // Ken Theme 
 		'sweetalert', //  Church Suite Theme by Webnus
 		'woo_stock_alerts_admin_css', // WooCommerce bolder product alerts
+		'custom_wp_admin_css', // Fix for Add Social Share
+		'fo_css', // Fix for Add Social Share
+		'font_css', // Fix for Add Social Share
+		'font2_css', // Fix for Add Social Share
+		'font3_css', // Fix for Add Social Share
+		'hover_css', // Fix for Add Social Share
+		'fontend_styling' // Fix for Add Social Share
 	);
 	
 	$scripts = array(
@@ -268,7 +282,6 @@ function monsterinsights_remove_conflicting_asset_files() {
 		'grandnews-admin-cript', // Grand News Theme
 		'colorpicker', // Grand News Theme
 		'eye', // Grand News Theme
-		'utils', // Grand News Theme
 		'icheck', // Grand News Theme
 		'learn-press-chart', //  LearnPress
 		'theme-script-main', //  My Listing Theme by 27collective
@@ -283,6 +296,38 @@ function monsterinsights_remove_conflicting_asset_files() {
 		'ecwid-admin-js', // Fixes Conflict for Ecwid Shopping Cart
 		'td-wp-admin-js', // Newspaper by tagDiv
 		'moment', // Screets Live Chat
+		'wpmf-base', //  WP Media Folder Fix
+		'wpmf-media-filters', //  WP Media Folder Fix
+		'wpmf-folder-tree', //  WP Media Folder Fix
+		'wpmf-assign-tree', //  WP Media Folder Fix
+		'js_files_for_wp_admin', //  TagDiv Composer Fix
+		'tdb_js_files_for_wp_admin_last', //  TagDiv Composer Fix
+		'tdb_js_files_for_wp_admin', //  TagDiv Composer Fix
+		'wd-functions', //  affiliate boxes
+		'ellk-aliExpansion', // Ali Dropship Plugin
+		'ftmetajs', // Houzez Theme
+		'qode_admin_default', //  Fix For Stockholm Theme
+		'qodef-tax-js', // Fix for Prowess Theme
+		'qodef-user-js', // Fix for Prowess Theme
+		'qodef-ui-admin', // Fix for Prowess Theme
+		'ssi_script', // Fix for Add Social Share
+		'live_templates', // Fix for Add Social Share
+		'default', // Fix for Add Social Share
+		'handsontable', // Fix WP Tables
+		'moment-js', // Magee Shortcodes
+		'postbox', // Scripts from wp-admin enqueued everywhere by WP Posts Filter
+		'link', // Scripts from wp-admin enqueued everywhere by WP Posts Filter
+		'wpvr_scripts', // WP Video Robot
+		'wpvr_scripts_loaded', // WP Video Robot
+		'wpvr_scripts_assets', // WP Video Robot
+		'writee_widget_admin', // Fix for the Writtee theme
+		'__ytprefs_admin__', // Fix for YouTube by EmbedPlus plugin
+		'momentjs', // Fix for Blog Time plugin
+		'c2c_BlogTime', //  Fix for Blog Time plugin
+		'material-wp', // Fix for MaterialWP plugin
+		'wp-color-picker-alpha', // Fix for MaterialWP plugin
+		'grandtour-theme-script', // Grandtour Theme
+		'swifty-img-widget-admin-script', // Fix for Swifty Image Widget.
 	);
 
 	if ( ! empty( $styles ) ) {
@@ -367,6 +412,40 @@ function monsterinsights_remove_conflicting_asset_files() {
 			remove_action('admin_print_footer_scripts', 'check_if_media_uploads_is_loaded', 9999);
 			remove_action('print_media_templates', 'td_custom_gallery_settings_hook');
 			remove_action('print_media_templates', 'td_change_backbone_js_hook');
+			remove_action('admin_head', 'tdc_on_admin_head'); //  TagDiv Composer Fix
+			remove_action('print_media_templates', 'us_media_templates'); // Impreza Theme Fix
+			remove_action('admin_footer', 'gt3pg_add_gallery_template'); // GT3 Photo & Video Gallery By GT3 Themes Plugin Fix
+		// Plugin WP Booklist:
+			remove_action('admin_footer', 'wpbooklist_jre_dismiss_prem_notice_forever_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_dashboard_add_book_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_edit_book_show_form_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_show_book_in_colorbox_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_new_lib_shortcode_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_dashboard_save_library_display_options_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_dashboard_save_post_display_options_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_dashboard_save_page_display_options_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_update_display_options_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_edit_book_pagination_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_edit_book_switch_lib_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_edit_book_search_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_edit_book_actual_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_delete_book_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_user_apis_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_upload_new_stylepak_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_upload_new_post_template_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_upload_new_page_template_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_create_db_library_backup_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_restore_db_library_backup_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_create_csv_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_amazon_localization_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_delete_book_bulk_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_reorder_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_exit_results_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_storytime_select_category_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_storytime_get_story_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_storytime_expand_browse_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_storytime_save_settings_action_javascript');
+			remove_action('admin_footer', 'wpbooklist_delete_story_action_javascript');
 }
 add_action( 'admin_enqueue_scripts', 'monsterinsights_remove_conflicting_asset_files', 9999 );
 
@@ -437,6 +516,7 @@ function hide_non_monsterinsights_warnings () {
 	}
 }
 add_action('admin_print_scripts', 'hide_non_monsterinsights_warnings');  
+add_action('admin_head', 'hide_non_monsterinsights_warnings', PHP_INT_MAX  );  
 
 /**
  * Called whenever an upgrade button / link is displayed in Lite, this function will
@@ -583,6 +663,8 @@ function monsterinsights_remove_unnecessary_footer_hooks() {
 	// Remove js code added by Newspaper theme - version 8.8.0.
 	remove_action( 'print_media_templates', 'td_custom_gallery_settings_hook' );
 	remove_action( 'print_media_templates', 'td_change_backbone_js_hook' );
+	// Remove js code added by the Brooklyn theme - version 4.5.3.1.
+	remove_action( 'print_media_templates', 'ut_create_gallery_options' );
 
 	// Remove js code added by WordPress Book List Plugin - version 5.8.1.
 	remove_action( 'admin_footer', 'wpbooklist_jre_dismiss_prem_notice_forever_action_javascript' );

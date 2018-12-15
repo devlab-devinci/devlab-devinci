@@ -60,60 +60,7 @@ global $seclekOptions; $page_meta_data = get_post_meta(get_the_ID(), '_page_info
                         ) );
                     ?>                
                 </div><!-- #site-navigation -->
-            <?php endif; ?> 
-
-            <div class="right-content">
-                <?php if( !is_array( $page_meta_data ) && isset( $seclekOptions['cr_en_button'] ) &&  $seclekOptions['cr_en_button'] == 'enable' ) : ?>
-                    <?php if( isset( $seclekOptions['cr_hr_btn'] ) &&  $seclekOptions['cr_hr_btn'] != '' ) : 
-                            $btn_text = $seclekOptions['cr_hr_btn'];
-                        endif; 
-                        $btn_url = ( isset( $seclekOptions['cr_hr_btn_url'] ) &&  $seclekOptions['cr_hr_btn_url'] != '' ) ? $seclekOptions['cr_hr_btn_url'] : '#';
-                    ?>
-                    <span>
-                        <a href="<?php echo esc_url( $btn_url ); ?>" class="btn btn-primary"><?php echo esc_html( $btn_text ); ?></a>
-                    </span>
-                    <?php elseif( is_array( $page_meta_data ) && isset( $page_meta_data['sk_btn_mini'] ) && $page_meta_data['sk_btn_mini'] == 'button' ) : ?>
-                        <?php if( isset( $seclekOptions['cr_hr_btn'] ) &&  $seclekOptions['cr_hr_btn'] != '' ) : 
-                                $btn_text = $seclekOptions['cr_hr_btn'];
-                            endif; 
-                            $btn_url = ( isset( $seclekOptions['cr_hr_btn_url'] ) &&  $seclekOptions['cr_hr_btn_url'] != '' ) ? $seclekOptions['cr_hr_btn_url'] : '#';
-                        ?>
-                        <span>
-                            <a href="<?php echo esc_url( $btn_url ); ?>" class="btn btn-primary"><?php echo esc_html( $btn_text ); ?></a>
-                        </span>
-                    <?php elseif( is_array( $page_meta_data ) && isset( $page_meta_data['sk_btn_mini'] ) &&  $page_meta_data['sk_btn_mini'] == 'mini-cart' ) : ?>
-                        <?php if ( class_exists('WooCommerce') ) : ?>
-                            <?php echo seclek_woocommerce_header_cart(); ?>
-                        <?php endif; ?>
-                    <?php else : ?>
-                        <?php if( isset( $seclekOptions['cr_en_button'] ) &&  $seclekOptions['cr_en_button'] == 'enable' ) : ?>
-                            <?php if( isset( $seclekOptions['cr_hr_btn'] ) &&  $seclekOptions['cr_hr_btn'] != '' ) : 
-                                    $btn_text = $seclekOptions['cr_hr_btn'];
-                                endif; 
-                                $btn_url = ( isset( $seclekOptions['cr_hr_btn_url'] ) &&  $seclekOptions['cr_hr_btn_url'] != '' ) ? $seclekOptions['cr_hr_btn_url'] : '#';
-                            ?>
-                            <span>
-                                <a href="<?php echo esc_url( $btn_url ); ?>" class="btn btn-primary"><?php echo esc_html( $btn_text ); ?></a>
-                            </span>
-                    <?php endif; ?>            
-                <?php endif; ?>            
-                <?php if( isset( $seclekOptions['cr_en_search'] ) &&  $seclekOptions['cr_en_search'] == 'enable' ) : ?>  
-                    <div class="tr-search">
-                        <div class="search-icon">
-                            <i class="fa fa-search"></i>
-                        </div>
-                        <div class="search-form text-center open-search">
-                            <div class="close-search">
-                                <span><i class="fa fa-times-circle" aria-hidden="true"></i></span>
-                            </div>
-                            <form role="search" method="get" id="search" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-                                <input type="search" class="form-control" autocomplete="off" name="s" placeholder="<?php echo __( 'Search&#46;&#46;&#46;', 'seclek' ); ?>" id="search-input" value="<?php echo esc_attr( get_search_query() ); ?>">
-                                <button type="submit" ><i class="fa fa-search"></i></button>
-                            </form>
-                        </div><!-- /s form -->                    
-                    </div><!-- /.tr-search -->
-                <?php endif; ?> 
-            </div><!-- /.find-option -->
+            <?php endif; ?>
 
         </div><!-- /.container -->
     </nav>                                       

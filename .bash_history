@@ -160,3 +160,9 @@ nano wp-config.php
 nano .htaccess 
 #1544611198
 git status
+#1544714060
+ls
+#1544797391
+ls
+#1544797552
+mysql

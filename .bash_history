@@ -166,3 +166,25 @@ ls
 ls
 #1544797552
 mysql
+#1544852687
+ls
+#1544852692
+git status
+#1544852742
+git add .
+#1544852757
+git status
+#1544852775
+gitcommit -m 'changes'
+#1544852788
+git commit -m 'plugins updates'
+#1544852795
+git push
+#1544852961
+git status
+#1544852970
+git push
+#1544852981
+git pull
+#1544853019
+git push
